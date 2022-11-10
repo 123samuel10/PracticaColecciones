@@ -56,7 +56,7 @@ public class Main {
     static List<Clients> mostrar(List<Clients> recorrer) {
         for (Clients clients : recorrer) {
             System.out.println("ID: " + clients.getId() + " " + "NOMBRE: " + clients.getName() + " " + "EDAD: " + clients.getAge() + " " + "TELEFONO: " + clients.getPhoneNumber() + " " + "CORREO: " + clients.getMail() + " "+
-                   "PRODUCTO" + clients.getProduct() + " " + " CANTIDAD: " + clients.getAmount() + " " + "PRECIO: " + clients.getPrice());
+                   "PRODUCTO: " + clients.getProduct() + " " + " CANTIDAD: " + clients.getAmount() + " " + "PRECIO: " + clients.getPrice());
 
         }
         return recorrer;
